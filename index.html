@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html layout</title>
+    <style>
+        header{
+            background-color: black;
+            height:100px;
+        }
+        h1{
+            padding-top: 30px;
+            padding-left: 10px;
+            color: white;
+        }
+        nav{
+            padding-left: 200px;
+        }
+    li{
+        display: flex;
+        float: left;
+        padding-left:200px;
+    }
+    .section{padding-top: 10px;
+        padding-left: 10px;
+        background-color: gainsboro;
+        height:500px;
+    }
+    .article{
+        background-color: white;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding:20px;
+    }
+    footer{
+        background-color: black;
+        color:white;
+        height:60px;
+    }
+    h3{
+        padding: 20px;
+    }
+img{
+    padding: 40px;
+}
+li:hover{
+    color:fuchsia;
+    font-size:x-large;
+}
+    </style>
+    
+</head>
+<body>
+    <header><h1>Header Area</h1></header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Sports</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <section>
+    <div class="section">
+        <h2>Section Area</h2>
+        <div class="article">
+            <h2>Article Area</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sit modi animi neque delectus ex impedit deserunt rem eveniet inventore dolorum ullam minus nemo excepturi? Dicta libero beatae blanditiis incidunt.</p>
+        </div>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQdGiKt1xiVIQt69gd4mI4QP4HoSjvliRFw&usqp=CAU">
+    </div>
+    </section>
+
+
+    <footer>
+        <h3>Footer Area</h3>
+    </footer>
+</body>
+</html>
